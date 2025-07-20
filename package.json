@@ -1,0 +1,28 @@
+{
+  "name": "js-cli-ex",
+  "version": "1.0.0",
+  "description": "JavaScript command line example using Commander",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yianniy/js-cli-ex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yianniy/js-cli-ex/issues"
+  },
+  "homepage": "https://github.com/yianniy/js-cli-ex#readme",
+  "bin": {
+    "js-cli-ex": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "decimal": "^0.0.2"
+  }
+}
